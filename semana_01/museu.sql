@@ -7,6 +7,7 @@ create table obra_de_arte (
 	ano_criacao integer,
 	tipo tipo_obra not null
 );
+ 
 
 create table artista (
 	id serial primary key,
